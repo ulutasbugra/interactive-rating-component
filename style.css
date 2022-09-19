@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+* {
+    font-family:Overpass, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color:hsl(216, 12%, 8%) ;
+}
+.contain1 {
+    background-color: hsl(213, 19%, 18%);
+    width: 250px;
+    height: 230px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    color: white;
+    justify-content: space-between;
+   
+}
+.contain1display {
+    display: none;
+}
+
+.icon1 {
+    width:10px;
+    height: 10  px;
+
+}
+.star-icon {
+    background-color: hsl(214, 22%, 25%);
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+   
+}
+.rating {
+ margin-top: -4px;
+ display: flex;
+ justify-content: space-between;
+
+}
+.rate {
+    font-family: sans-serif;
+    background-color:hsl(214, 22%, 25%);
+    border: none;
+    width:30px;
+    height:30px;
+    border-radius: 50%;
+    color: hsl(217, 12%, 63%);
+    font-size: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.rate:hover{
+    background-color:hsl(25, 97%, 53%);
+    color: white;
+}
+.rate:focus {
+    background-color: hsl(217, 12%, 63%);
+    color: white;
+}
+.how {
+    font-family: Overpass, sans-serif ;
+    font-weight: 700;
+    margin-bottom: 4px;
+}
+p.paragraph1 {
+    font-size: 10px;
+    width: 95%;
+    color: hsl(217, 12%, 63%);
+}
+.submit {text-align: center;}
+.submit-btn {
+    transition: 0.3s;
+    font-family: sans-serif;
+    width: 100%;
+    height: 100%;
+    background-color:hsl(25, 97%, 53%) ;
+    border: none;
+    border-radius: 20px;
+    padding: 6px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 400;
+    text-align: center;
+    font-size: 9px;
+    letter-spacing: 2px;
+    cursor: pointer;
+
+}
+.submit-btn:hover{
+    background-color: white;
+    color:hsl(25, 97%, 53%) ;
+    
+}
+
+.contain2 {
+    color: white;
+    width: 250px;
+    height: 230px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px;
+    background-color:hsl(213, 19%, 18%) ;
+    border-radius: 20px;
+}
+.contain2display {
+    display: none;
+}
+
+.icon2 {
+    width: 87px;
+    height: 75px;
+    margin-bottom: 6px;
+}
+.select-box { 
+    margin-top: 5px;
+    margin-bottom: 10px;
+
+    border-radius: 20px;
+    background-color: hsl(214, 22%, 27%);
+
+    display: table; 
+  
+}
+.select {
+    font-family: sans-serif;
+    text-align:center; 
+    vertical-align: middle;
+    display: table-cell; 
+    font-size: 10px;
+    padding: 4px 10px;
+    color: hsl(25, 97%, 53%);
+}
+.thanks {
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 4px;
+}
+.paragraph2 {
+    text-align: center;
+    width: 100%;
+    margin-top: 4px;
+    font-size: 9px;
+    color: hsl(217, 12%, 63%);
+}
